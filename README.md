@@ -10,9 +10,9 @@ A Discord bot that uses GPT-4 to respond to user messages in a conversational ma
 - An OpenAI API key (stored in a `.env` file as `OPENAI_API_KEY`).
 
 ### Installation
-1. Clone the repository:
+1. Clone the repository.
 
-2. Navigate to the project directory:
+2. Navigate to the project directory.
 
 3. Install the required dependencies:
    ```bash
@@ -21,6 +21,7 @@ A Discord bot that uses GPT-4 to respond to user messages in a conversational ma
 
 ### Usage
 1. Set up your `.env` file with the necessary credentials:
+
    ```
    BOT_TOKEN=<your-discord-bot-token>
    OPENAI_API_KEY=<your-openai-api-key>
