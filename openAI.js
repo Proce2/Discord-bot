@@ -5,11 +5,7 @@ const apiKey = process.env.OPENAI_API_KEY;
 const configuration = new Configuration({
   apiKey: apiKey
 });
-const openai = new OpenAIApi(configuration);
-
-//let messages = 'The following is a conversation with an AI assistant. The assistant is helpful, creative, clever, and very friendly.\n\
-//Hello, who are you?\n\
-//I am an AI created by OpenAI. How can I help you today?\n';
+const openai = new OpenAIApi(configuration); // Initializes the OpenAI API client
 
 async function getGPTResponse() {
     const gptResponse = await openai.createChatCompletion({

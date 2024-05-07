@@ -20,7 +20,7 @@ client.on("messageCreate", function(message) {
   })();
 }); 
 
-client.login(apiSecret);
+client.login(apiSecret); // Logs into Discord using the bot token
 
 
 
