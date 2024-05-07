@@ -1,4 +1,4 @@
-# chatGPT-discord-Bot
+discord-Bot
 
 A Discord bot that uses GPT-4 to respond to user messages in a conversational manner. Easy to extend and adapt for various use cases.
 
